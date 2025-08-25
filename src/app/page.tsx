@@ -4,13 +4,13 @@ export default function Home() {
   return (
     <main className="flex flex-col">
       {/* Hero Section */}
-      <section className="flex flex-col items-center justify-center text-center min-h-screen p-6 gap-8 bg-gradient-to-b from-green-50 to-green-100">
+      <section className="flex flex-col items-center justify-center text-center min-h-screen p-6 gap-4 bg-gradient-to-b ">
         {/* Logos */}
         <Image
           src="/logo-rect.png"
           alt="Forest City Contracting"
-          width={512}
-          height={164}
+          width={700}
+          height={225}
           priority
           className="hidden sm:block w-full max-w-md"
         />
@@ -25,7 +25,7 @@ export default function Home() {
 
         {/* Content */}
         <h1 className="text-4xl md:text-5xl font-bold">
-          Craftsmanship Rooted in Forest City
+          Craftsmanship Rooted in Savannah
         </h1>
         <p className="max-w-prose text-lg">
           Forest City Contracting is your local partner for renovations, additions,
@@ -45,7 +45,7 @@ export default function Home() {
       </section>
 
       {/* Services Section */}
-      <section className="py-16 px-6 bg-white text-gray-800">
+      <section className="py-6 px-6 bg-white text-gray-800">
         <h2 className="text-3xl font-semibold mb-12 text-center">What We Offer</h2>
         <div className="grid gap-8 md:grid-cols-3 max-w-5xl mx-auto">
           <div className="flex flex-col items-center text-center p-6 bg-gray-50 rounded-lg shadow-md">
