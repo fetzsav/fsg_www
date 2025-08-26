@@ -9,8 +9,8 @@ export default function Home() {
         <Image
           src="/logo-rect.png"
           alt="Forest City Contracting"
-          width={1054}
-          height={339}
+          width={700}
+          height={225}
           priority
           className="hidden sm:block w-full max-w-3xl"
         />
@@ -25,7 +25,7 @@ export default function Home() {
 
         {/* Content */}
         <h1 className="text-4xl md:text-5xl font-bold text-[#c3d600]">
-          Craftsmanship Rooted in Forest City
+          Craftsmanship Rooted in Savannah
         </h1>
         <p className="max-w-prose text-lg text-gray-300">
           Forest City Contracting is your local partner for renovations, additions,
@@ -64,43 +64,19 @@ export default function Home() {
         <h2 className="text-3xl font-semibold mb-12 text-center text-[#c3d600]">What We Offer</h2>
         <div className="grid gap-8 md:grid-cols-3 max-w-5xl mx-auto">
           <div className="flex flex-col items-center text-center p-6 bg-[#2a2a2a] rounded-lg shadow-md">
-            <Image
-              src="/window.svg"
-              alt="Renovations"
-              width={64}
-              height={64}
-              className="mb-4"
-            />
+            <Image src="/window.svg" alt="Renovations" width={64} height={64} className="mb-4" />
             <h3 className="text-xl font-semibold">Renovations</h3>
-            <p className="mt-2 text-gray-300">
-              Refresh your home with modern updates and quality craftsmanship.
-            </p>
+            <p className="mt-2 text-gray-300">Refresh your home with modern updates and quality craftsmanship.</p>
           </div>
           <div className="flex flex-col items-center text-center p-6 bg-[#2a2a2a] rounded-lg shadow-md">
-            <Image
-              src="/file.svg"
-              alt="Additions"
-              width={64}
-              height={64}
-              className="mb-4"
-            />
+            <Image src="/file.svg" alt="Additions" width={64} height={64} className="mb-4" />
             <h3 className="text-xl font-semibold">Additions</h3>
-            <p className="mt-2 text-gray-300">
-              Expand your living space with seamless additions tailored to your needs.
-            </p>
+            <p className="mt-2 text-gray-300">Expand your living space with seamless additions tailored to your needs.</p>
           </div>
           <div className="flex flex-col items-center text-center p-6 bg-[#2a2a2a] rounded-lg shadow-md">
-            <Image
-              src="/globe.svg"
-              alt="Outdoor Living"
-              width={64}
-              height={64}
-              className="mb-4"
-            />
+            <Image src="/globe.svg" alt="Outdoor Living" width={64} height={64} className="mb-4" />
             <h3 className="text-xl font-semibold">Outdoor Living</h3>
-            <p className="mt-2 text-gray-300">
-              Create inviting decks, patios, and landscapes built to last.
-            </p>
+            <p className="mt-2 text-gray-300">Create inviting decks, patios, and landscapes built to last.</p>
           </div>
         </div>
       </section>
