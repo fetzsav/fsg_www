@@ -4,23 +4,27 @@ export default function Home() {
   return (
     <main className="flex flex-col">
       {/* Hero Section */}
-      <section className="flex flex-col items-center justify-center text-center min-h-screen p-6 gap-8 bg-[#2f2f2f] text-gray-100">
+      <section className="flex flex-col items-center justify-center text-center min-h-screen p-6 gap-12 bg-[#2f2f2f] text-gray-100">
         {/* Logos */}
         <Image
           src="/logo-rect.png"
           alt="Forest City Contracting"
-          width={700}
-          height={225}
+          width={2108}
+          height={677}
           priority
-          className="hidden sm:block w-full max-w-3xl"
+          quality={100}
+          unoptimized
+          className="hidden sm:block w-[480px] h-auto"
         />
         <Image
           src="/logo-square.png"
           alt="Forest City Contracting logo"
-          width={256}
-          height={256}
+          width={682}
+          height={682}
           priority
-          className="sm:hidden w-48"
+          quality={100}
+          unoptimized
+          className="sm:hidden w-40 h-auto"
         />
 
         {/* Content */}
